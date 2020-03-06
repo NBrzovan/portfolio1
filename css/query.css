@@ -53,11 +53,10 @@
        margin-top:2%;
    }
    #icon{
-       display:block;
        padding:2%;
    }
    #icon .icons{
-       width:70%;
+       width:40%;
    }
    img{
        width:90%;
@@ -72,8 +71,14 @@
        bottom:20%;
        left:10%;
    }
+   #projects .pro{
+       width:60%;
+   }
 }
 @media screen and (max-width: 480px){
+    #icon .icons{
+        width:90%;
+    }
     #info .infoAbout:last-child{
         word-spacing:15px;
     }
@@ -84,4 +89,8 @@
     #info .infoAbout p{
         font-size:20px;
     }
+    #textCover{
+        padding:20px;
+    }
+
 }
