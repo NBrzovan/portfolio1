@@ -7,7 +7,7 @@
 	clear:both;
 }
 body{
-    font-family: 'Yrsa', serif;
+    font-family: 'Yrsa', serif; 
 }
 html {
     scroll-behavior:smooth;
@@ -101,9 +101,6 @@ nav ul li a:hover{
     margin-top:50px;
     margin-bottom:50px;
 }
-#blk{
-    padding-top:80px;
-}
 .bLeft{
     width:40%;
     min-height:50px;
@@ -169,6 +166,8 @@ nav ul li a:hover{
     display:flex;
     justify-content:space-around;
     flex-wrap:wrap;
+    padding: 70px;
+    margin-top: 100px;
 }
 #projects .pro{
     width:33%;
@@ -180,7 +179,7 @@ nav ul li a:hover{
     font-size: 20px;
 }
 #projects .pro img{
-    width: 60%;
+    width: 50%;
 }
 #projects .hov img:hover{
     opacity:0.7;
@@ -193,7 +192,7 @@ nav ul li a:hover{
     color:chartreuse;
 }
 #icon{
-    margin-top:50px;
+    margin-top:100px;
     width:90%;
     display:flex;
     justify-content:space-around;
